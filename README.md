@@ -21,6 +21,7 @@ ERROR: error during connect: this error may indicate that the docker daemon is n
 
 En cualquier caso, funciona, porque:
 
-`$ docker --version
+```
+$ docker --version
 Docker version 27.5.1, build 9f9e405
-`
+```
