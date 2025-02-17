@@ -1,5 +1,10 @@
-# PL-SQ
+# PL/SQL
+## Introducción. ¿Qué es PL/SQL?
 
+> [!TIP]
+>Entonces, SQL es un lenguaje de programación especializado y diseñado para gestionar y manipular BASES DE DATOS RELACIONALES.
+
+# Introducción al ejercicio.
 Voy a crear el entorno usando Docker:
 
 Para ello en Windows voy a descargar el docker-desktop, no hay otra, no es como en Ubuntu que tienes la forma gráfica y forma CMD.
