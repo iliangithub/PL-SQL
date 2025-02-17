@@ -126,4 +126,8 @@ Este es el enlace a la descarga.
 
 ![image](https://github.com/user-attachments/assets/1ad08265-9e49-4ca0-b9d8-5dbff6f24676)
 
+Voy a abrir el programa, para crear una nueva conexión.
+
+*Recordemos, que esto es un simple programa gráfico para acceder a la Base de Datos de Oracle de contenedor*:
+
 
