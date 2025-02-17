@@ -25,3 +25,16 @@ En cualquier caso, funciona, porque:
 $ docker --version
 Docker version 27.5.1, build 9f9e405
 ```
+
+# Instalar la imagen de Oracle.
+
+**NO se encuentra en Dockerhub**. Se encuentra aquí:
+
+https://container-registry.oracle.com/ords/f?p=113:10:10309525717681:::::
+
+y podemos encontrar cosas como el GoldenGate, MySQL, etc...
+
+Concretamente buscamos la imagen que está aquí:
+
+https://container-registry.oracle.com/ords/f?p=113:4:10309525717681:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:803,803,Oracle%20Database%20Express%20Edition,Oracle%20Database%20Express%20Edition,1,0&cs=3kSUSZKpypeaX9BO1ZKQTkvorkgcR9U3WrhddSE5Y2qCsoB10k2zZsV3yoMEsq5F7OWxfmVlKpdHnQc-fgHZCRA
+
