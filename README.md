@@ -16,8 +16,8 @@ SQL cuenta con sublenguajes, para que sea más preciso:
 - DCL (Data Control Language) Grant, Revoke.
 - TCL (Transaction Control Language) START TRANSACTION... Commit, Rollback, Savepoint.
 - PL/SQL (Procedural SQL) aquí es donde hay programación, como bucles condiciones y variables,
--   PL/SQL (En Oracle)
--   T-SQL (SQL Server).
+  -   PL/SQL (En Oracle)
+  -   T-SQL (SQL Server).
 
 # Introducción al ejercicio.
 Voy a crear el entorno usando Docker:
