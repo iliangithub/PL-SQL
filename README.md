@@ -134,3 +134,6 @@ Voy a abrir el programa, para crear una nueva conexión.
 
 ![image](https://github.com/user-attachments/assets/543edf93-cbe9-4fcb-8c16-aceabd47afd1)
 
+Y quiero comprobar de que efectivamente pues se ha conectado a la BD:
+
+![image](https://github.com/user-attachments/assets/b9b4fbe8-144f-4279-9c09-efae314a0e45)
