@@ -130,4 +130,7 @@ Voy a abrir el programa, para crear una nueva conexión.
 
 *Recordemos, que esto es un simple programa gráfico para acceder a la Base de Datos de Oracle de contenedor*:
 
+![image](https://github.com/user-attachments/assets/156832e0-7f77-4c41-b2b7-9350049f2a5c)
+
+![image](https://github.com/user-attachments/assets/543edf93-cbe9-4fcb-8c16-aceabd47afd1)
 
