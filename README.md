@@ -32,7 +32,7 @@ Necesitamos un programa QUE SEA CAPAZ DE SOPORTAR PL/SQL, como Oracle SQL Develo
 >
 >| Característica | PL/SQL (Oracle) | MySQL (Procedural) |
 >| ------------- | ------------- | ------------- |
->| Base de datos | Oracle | MySQL |
+>| Base de datos | **Oracle** | **MySQL** |
 >| Lenguaje Procedural  | PL/SQL | Procedural SQL (MySQL) |
 >| Soporta paquetes	  | ✅ Sí | ❌ No |
 >| Triggers avanzados  | ✅ Sí | ⚠️ Limitados |
