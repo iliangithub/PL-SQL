@@ -142,7 +142,9 @@ Y quiero comprobar de que efectivamente pues se ha conectado a la BD:
 
 >[!IMPORTANT]
 >Aquí dejo mis apuntes o las cosas que he aprendido en el Grado Superior sobre el PL/SQL.
+> https://github.com/iliangithub/Apuntes_PL-SQL
 >
+
 
 
 
