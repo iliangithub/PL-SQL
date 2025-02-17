@@ -4,7 +4,7 @@
 Entonces, SQL es un lenguaje de programación especializado y diseñado para gestionar y manipular BASES DE DATOS RELACIONALES. Y es un lenguaje DECLARATIVO, es decir, describes lo que quieres hacer, en lugar de escribir paso a paso cómo hacerlo.
 
 >[!TIP]
->No es un lenguaje de programación completo porque no tiene características como la manipulación de memoria o estructuras de control avanzadas fuera del ámbito de las bases de datos.
+> SQL, entonces, no es un lenguaje de programación completo porque no tiene características como la manipulación de memoria o estructuras de control avanzadas fuera del ámbito de las bases de datos.
 >- Los for, while, if, foreach.
 >- o arrays para manipular la memoria.
 >
@@ -15,6 +15,8 @@ SQL cuenta con sublenguajes, para que sea más preciso:
 - DML (Data Manipulation Language) Select, Insert, Update, Delete.
 - DCL (Data Control Language) Grant, Revoke.
 - TCL (Transaction Control Language) START TRANSACTION... Commit, Rollback, Savepoint.
+
+Y **PL/SQL NO ES UN SUBLENGUAJE**
 - PL/SQL (Procedural SQL) aquí es donde hay programación, como bucles condiciones y variables,
   - PL/SQL (En Oracle).
   - T-SQL (SQL Server).
