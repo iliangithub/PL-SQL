@@ -4,7 +4,9 @@
 Entonces, SQL es un lenguaje de programación especializado y diseñado para gestionar y manipular BASES DE DATOS RELACIONALES. Y es un lenguaje DECLARATIVO, es decir, describes lo que quieres hacer, en lugar de escribir paso a paso cómo hacerlo.
 
 >[!TIP]
->No es un lenguaje de programación completo porque no tiene características como la manipulación de memoria o estructuras de control avanzadas fuera del ámbito de las bases de datos. (Los for, while, if, foreach)(o arrays para manipular la memoria).
+>No es un lenguaje de programación completo porque no tiene características como la manipulación de memoria o estructuras de control avanzadas fuera del ámbito de las bases de datos.
+>- (Los for, while, if, foreach)
+>- (o arrays para manipular la memoria).
 >
 
 
