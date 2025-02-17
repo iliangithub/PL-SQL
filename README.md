@@ -54,3 +54,8 @@ Y si queremos iniciar la instancia pues se hace así:
 docker run -d --name <oracle-db> container-registry.oracle.com/database/express:21.3.0-xe
 ```
 
+**EN MI CASO**  voy a usar este comando para hacer el contenedor:
+
+```
+docker run --name oracle-xe-ilian-pruebas -p 1521:1521 -e ORACLE_PWD=123456 container-registry.oracle.com/database/express:latest
+```
