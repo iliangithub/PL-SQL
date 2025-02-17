@@ -26,7 +26,7 @@ Necesitamos un programa QUE SEA CAPAZ DE SOPORTAR PL/SQL, como Oracle SQL Develo
 >[!IMPORTANT]
 >Entonces en el SQL Developer puedo hacer SELECTS y demás, SÍ, y en el Plus también.
 >
->Sin embargo, en MySQL Workbench no puedo hacer PL/SQL, es exclusivo de Oracle, mientras que MySQL usa un lenguaje procedimental diferente llamado "MySQL Procedural Language" dentro de sus procedimientos almacenados.
+>**Sin embargo, en MySQL Workbench no puedo hacer PL/SQL**, es exclusivo de Oracle, mientras que MySQL usa un lenguaje procedimental diferente llamado "MySQL Procedural Language" dentro de sus procedimientos almacenados.
 >
 >Entonces, MySQL Workbench utiliza **ALGO PARECIDO al PL/SQL, pero NO es igual de potente**
 >
@@ -39,6 +39,7 @@ Necesitamos un programa QUE SEA CAPAZ DE SOPORTAR PL/SQL, como Oracle SQL Develo
 >| Cursores explícitos | ✅ Sí | ⚠️ Limitados  |
 >| Manejo de excepciones  | ✅ Sí (EXCEPTION)  | ⚠️ Limitado (DECLARE HANDLER) |
 
+En cuestión, para PL/SQL se usa el Oracle SQL Developer, porque es más potente que la opción de MySQL Workbench, está muuy limitado, además de que como hemos dicho antes, no es lo mismo. Es exclusivo de Oracle, pero MySQL pues tiene su alternativa.
 
 # Introducción al ejercicio.
 Voy a crear el entorno usando Docker:
