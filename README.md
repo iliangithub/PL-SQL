@@ -12,9 +12,15 @@ https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_s
 # Docker Daemon Not Running.
 **Vamos a comprobar que el demonio docker funcione.**
 
-Este fue un error que NO fue culpa mía y me hizo fallar una entrevista entera.
+Este fue un error que NO fue culpa mía y me hizo fallar una entrevista entera:
 
 ```
 $ docker build .
 ERROR: error during connect: this error may indicate that the docker daemon is not running: Head "http://%2F%2F.%2Fpipe%2Fdocker_engine/_ping": open //./pipe/docker_engine: The system cannot find the file specified.
 ```
+
+En cualquier caso, funciona, porque:
+
+`$ docker --version
+Docker version 27.5.1, build 9f9e405
+`
