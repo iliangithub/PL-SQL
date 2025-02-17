@@ -74,3 +74,10 @@ Ahora necesitamos pues trabajar con ella.
 Para ello voy a descargar SQL Developer.
 
 # SQL Developer.
+
+Se trata de un programa que es como "portable", no requiere de una isntalación clásica, con un .exe y darle a siguiente, siguiente...
+
+https://download.oracle.com/otn_software/java/sqldeveloper/sqldeveloper-24.3.1.347.1826-x64.zip
+
+Este es el enlace a la descarga.
+
