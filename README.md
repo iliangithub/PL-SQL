@@ -38,3 +38,10 @@ Concretamente buscamos la imagen que está aquí:
 
 https://container-registry.oracle.com/ords/f?p=113:4:10309525717681:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:803,803,Oracle%20Database%20Express%20Edition,Oracle%20Database%20Express%20Edition,1,0&cs=3kSUSZKpypeaX9BO1ZKQTkvorkgcR9U3WrhddSE5Y2qCsoB10k2zZsV3yoMEsq5F7OWxfmVlKpdHnQc-fgHZCRA
 
+![image](https://github.com/user-attachments/assets/3e2f30b7-a029-4d17-a262-bb762c894bd8)
+
+Y aquí está el comando docker para descargar la imagen.
+
+```
+docker pull container-registry.oracle.com/database/express:latest
+```
