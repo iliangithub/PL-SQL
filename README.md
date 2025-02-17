@@ -60,7 +60,16 @@ docker run -d --name <oracle-db> container-registry.oracle.com/database/express:
 docker run --name oracle-xe-ilian-pruebas -p 1521:1521 -e ORACLE_PWD=123456 container-registry.oracle.com/database/express:latest
 ```
 
-Entonces, una vez tengamos el contenedor, tenemos la Base de Datos en sí. Ahora necesitamos pues trabajar con ella.
+Entonces, una vez tengamos el contenedor, tenemos la Base de Datos en sí. 
+
+```
+docker ps | grep oracle-xe-ilian-pruebas
+```
+O este otro también:
+```
+docker ps --filter "name=oracle-xe-ilian-pruebas"
+```
+Ahora necesitamos pues trabajar con ella.
 
 Para ello voy a descargar SQL Developer.
 
