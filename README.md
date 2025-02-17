@@ -16,8 +16,29 @@ SQL cuenta con sublenguajes, para que sea más preciso:
 - DCL (Data Control Language) Grant, Revoke.
 - TCL (Transaction Control Language) START TRANSACTION... Commit, Rollback, Savepoint.
 - PL/SQL (Procedural SQL) aquí es donde hay programación, como bucles condiciones y variables,
-  -   PL/SQL (En Oracle)
-  -   T-SQL (SQL Server).
+  - PL/SQL (En Oracle).
+  - T-SQL (SQL Server).
+
+Entonces, sabiendo esto.
+
+Necesitamos un programa QUE SEA CAPAZ DE SOPORTAR PL/SQL, como Oracle SQL Developer (Que he usado en el Grado Superior...) (O el SQL Plus, que eso es formato CLI ) (El que usaba en Capgemini). 
+
+>[!IMPORTANT]
+>Entonces en el SQL Developer puedo hacer SELECTS y demás, SÍ, y en el Plus también.
+>
+>Sin embargo, en MySQL Workbench no puedo hacer PL/SQL, es exclusivo de Oracle, mientras que MySQL usa un lenguaje procedimental diferente llamado "MySQL Procedural Language" dentro de sus procedimientos almacenados.
+>
+>Entonces, MySQL Workbench utiliza **ALGO PARECIDO al PL/SQL, pero NO es igual de potente**
+>
+>| Característica | PL/SQL (Oracle) | MySQL (Procedural) |
+>| ------------- | ------------- | ------------- |
+>| Base de datos | Oracle | MySQL |
+>| Lenguaje Procedural  | PL/SQL | Procedural SQL (MySQL) |
+>| Soporta paquetes	  | ✅ Sí | ❌ No |
+>| Triggers avanzados  | ✅ Sí | ⚠️ Limitados |
+>| Cursores explícitos | ✅ Sí | ⚠️ Limitados  |
+>| Manejo de excepciones  | ✅ Sí (EXCEPTION)  | ⚠️ Limitado (DECLARE HANDLER) |
+
 
 # Introducción al ejercicio.
 Voy a crear el entorno usando Docker:
@@ -94,7 +115,7 @@ Ahora necesitamos pues trabajar con ella.
 
 Para ello voy a descargar SQL Developer.
 
-# SQL Developer.
+# Oracle SQL Developer.
 
 Se trata de un programa que es como "portable", no requiere de una isntalación clásica, con un .exe y darle a siguiente, siguiente...
 
