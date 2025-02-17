@@ -5,8 +5,8 @@ Entonces, SQL es un lenguaje de programación especializado y diseñado para ges
 
 >[!TIP]
 >No es un lenguaje de programación completo porque no tiene características como la manipulación de memoria o estructuras de control avanzadas fuera del ámbito de las bases de datos.
->- (Los for, while, if, foreach)
->- (o arrays para manipular la memoria).
+>- Los for, while, if, foreach.
+>- o arrays para manipular la memoria.
 >
 
 
