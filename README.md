@@ -45,3 +45,12 @@ Y aquí está el comando docker para descargar la imagen.
 ```
 docker pull container-registry.oracle.com/database/express:latest
 ```
+
+En la propia documentación de la página, nos indican que la imagen, tiene una base de datos por defecto, para que la puesta en marcha sea muy rápida, sirve para CI/CD.
+
+Y si queremos iniciar la instancia pues se hace así:
+
+```
+docker run -d --name <oracle-db> container-registry.oracle.com/database/express:21.3.0-xe
+```
+
