@@ -1,6 +1,8 @@
 # Ejercicios PL/SQL
 ## Introducción. ¿Qué es PL/SQL?
 
+Mis apuntes: https://github.com/iliangithub/Apuntes_PL-SQL/blob/main/README.md
+
 Entonces, SQL es un lenguaje de programación especializado y diseñado para gestionar y manipular BASES DE DATOS RELACIONALES. Y es un lenguaje DECLARATIVO, es decir, describes lo que quieres hacer, en lugar de escribir paso a paso cómo hacerlo.
 
 >[!TIP]
