@@ -140,7 +140,7 @@ Y quiero comprobar de que efectivamente pues se ha conectado a la BD:
 
 ![image](https://github.com/user-attachments/assets/b9b4fbe8-144f-4279-9c09-efae314a0e45)
 
-# El ejercicio en sí.
+# El ejercicio en sí. El Básico, Fizz Buzz.
 
 >[!IMPORTANT]
 >Aquí dejo mis apuntes o las cosas que he aprendido en el Grado Superior sobre el PL/SQL.
