@@ -149,6 +149,73 @@ Y quiero comprobar de que efectivamente pues se ha conectado a la BD:
 > https://github.com/iliangithub/Apuntes_PL-SQL
 >
 
+# Crea un procedimiento que agregue un nuevo empleado a la tabla EMPLOYEES con los siguientes datos:
 
+```
+  CREATE OR REPLACE PROCEDURE anadir_empleado (
+      p_empleado_id IN NUMBER,
+      p_nombre IN VARCHAR2,
+      p_apellido IN VARCHAR2,
+      
+  )
+IS
+BEGIN
+    INSERT INTO tabla_empleado (empleado_id, nombre, apellido)
+    VALUES ( p_empleado_id, p_nombre, p_apellido);
+    
+    COMMIT;
+END;
+/
+```
+¿Qué pasa si el ID ya existe? (Deberías manejar excepciones con EXCEPTION WHEN OTHERS THEN ...)
+Aunque eso no debería de ocurrir.
 
+# Función para obtener un valor.
 
+```
+CREATE OR REPLACE FUNCTION obtener_salario (
+    p_empleado_id IN NUMBER
+)
+RETURN NUMBER
+IS
+  v_salario NUMBER;
+  
+BEGIN
+    SELECT salario INTO v_salario FROM empleado WHERE empleado_id = p_empleado_id;
+    RETURN v_salario
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN RETURN NULL;
+END;
+/
+```
+
+Para que sirve el IS, para separar la declaración del procedimiento
+`CREATE OR REPLACE PROCEDURE....`
+
+de su implementación.
+
+Usa DECLARE en bloques anónimos, porque no tienen cabecera.
+Usa IS en procedimientos, funciones y triggers, porque ya tienen cabecera y necesitan una separación formal entre la definición y el código.
+
+# Manejar errores:
+
+```
+CREATE OR REPLACE FUNCTION get_salary(p_employee_id IN NUMBER) RETURN NUMBER
+IS
+    v_salary NUMBER;
+BEGIN
+    SELECT salary INTO v_salary
+    FROM employees
+    WHERE employee_id = p_employee_id;
+
+    RETURN v_salary;
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        DBMS_OUTPUT.PUT_LINE('Empleado no encontrado');
+        RETURN NULL;
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error inesperado: ' || SQLERRM);
+        RETURN NULL;
+END;
+/
+```
