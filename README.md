@@ -55,7 +55,11 @@ Haciendo click a este enlace te lo descargará automaticamente. Es la versión A
 
 https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module
 
-# Docker Daemon Not Running.
+# Errores docker:
+## Error WSL.
+![image](https://github.com/user-attachments/assets/9483ad39-7500-4096-80e2-f30ccdda2adf)
+
+## Docker Daemon Not Running.
 **Vamos a comprobar que el demonio docker funcione.**
 
 Este fue un error que NO fue culpa mía y me hizo fallar una entrevista entera:
